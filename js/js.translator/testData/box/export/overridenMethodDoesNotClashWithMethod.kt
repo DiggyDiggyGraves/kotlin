@@ -1,3 +1,6 @@
+// IGNORE_BACKEND: JS_IR, JS_IR_ES6
+// ISSUE: KT-55256
+
 @JsExport
 abstract class Foo1 {
     abstract fun ok(a: Int): String
